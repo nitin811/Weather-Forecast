@@ -1,14 +1,15 @@
-const form = document.getElementById('weatherForm');
+    const form = document.getElementById('weatherForm');
     const resultDiv = document.getElementById('result');
     const weatherContainer = document.getElementById('weatherContainer');
     const modeToggle = document.getElementById('modeToggle');
     const currentLocationBtn = document.getElementById('currentLocationBtn');
+    const locationInput = document.getElementById('location');
 
     // Weather fetch logic
     async function fetchWeather(location) {
       resultDiv.textContent = 'Loading...';
       const apiKey = 'd8abfc3446fc40ce91952814252108';
-      const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(location)}&aqi=no`;
+      const url = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(location)}&aqi=no`;
       
       try {
         const response = await fetch(url);
@@ -75,6 +76,7 @@ const form = document.getElementById('weatherForm');
       );
 
     });
+
 
 
 

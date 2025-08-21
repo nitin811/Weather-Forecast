@@ -82,16 +82,19 @@
     @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
     .signature {
-        font-family: 'Pacifico', cursive;
-        position: fixed;
-        bottom: 12px;
-        right: 16px
-        font-size: 1.2rem;
-        color: #ffffff;
-        margin-top: 20px;
-    }
+      font-family: 'Pacifico', cursive;
+      position: fixed;
+      bottom: 12px;
+      right: 16px;
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-top: 20px;
+      z-index: 999;
+      text-shadow: 1px 1px 3px #000;
+}
 
 
   
+
 
 

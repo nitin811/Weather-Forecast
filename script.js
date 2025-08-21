@@ -4,7 +4,7 @@ const form = document.getElementById('weatherForm');
     const modeToggle = document.getElementById('modeToggle');
     const currentLocationBtn = document.getElementById('currentLocationBtn');
 
-    Weather fetch logic
+    // Weather fetch logic
     async function fetchWeather(location) {
       resultDiv.textContent = 'Loading...';
       const apiKey = 'd8abfc3446fc40ce91952814252108';
@@ -75,5 +75,6 @@ const form = document.getElementById('weatherForm');
       );
 
     });
+
 
 

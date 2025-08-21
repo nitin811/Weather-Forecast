@@ -79,15 +79,15 @@
     }
 
     /* For footer at the bottom */
-    .credit-footer {
-        position: fixed;
-        bottom: 12px;
-        width: 100%;
-        text-align: center;
-        font-size: 0.9rem;
-        color: #f0f0f0;
-        text-shadow: 1px 1px 3px #000;
-        font-family: Arial, sans-serif;
+    @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+    .signature {
+        font-family: 'Pacifico', cursive;
+        font-size: 1.2rem;
+        color: #6b7280;
+        margin-top: 20px;
     }
 
+
   
+

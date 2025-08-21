@@ -83,11 +83,15 @@
 
     .signature {
         font-family: 'Pacifico', cursive;
+        position: fixed;
+        bottom: 12px;
+        right: 16px
         font-size: 1.2rem;
-        color: #6b7280;
+        color: #ffffff;
         margin-top: 20px;
     }
 
 
   
+
 

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="toggle-mode" id="modeToggle">🌙 Toggle Mode</button>
+
+  <div class="weather-container" id="weatherContainer">
+    <h2>Check Current Temperature</h2>
+    <form id="weatherForm">
+      <input type="text" id="location" placeholder="Enter location (e.g., London)" required />
+      <br>
+      <button type="submit">Get Weather</button>
+      <button type="button" id="currentLocationBtn">📍 Use My Location</button>
+    </form>
+    <div class="result" id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

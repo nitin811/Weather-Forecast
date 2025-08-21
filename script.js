@@ -8,7 +8,7 @@ const form = document.getElementById('weatherForm');
     async function fetchWeather(location) {
       resultDiv.textContent = 'Loading...';
       const apiKey = 'd8abfc3446fc40ce91952814252108';
-      const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(location)}&aqi=no`;
+      const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${encodeURIComponent(location)}&aqi=yes`;
       
       try {
         const response = await fetch(url);
@@ -71,4 +71,5 @@ const form = document.getElementById('weatherForm');
           resultDiv.textContent = 'Unable to retrieve your location.';
         }
       );
+
     });

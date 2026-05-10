@@ -10,7 +10,7 @@
 
 ---
 ## 🚀 Live Demo
-🔗[![Click Me!](https://tempfind.netlify.app/)]
+🔗![Click Me](https://tempfind.netlify.app/)
 
 ## 📸 Preview
 
